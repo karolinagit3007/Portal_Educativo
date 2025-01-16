@@ -1,0 +1,69 @@
+/* Fondo de pantalla */
+.login-background {
+    background: url('../assets/images/fondos.jpg') no-repeat center center/cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Tarjeta principal */
+.login-card {
+    background-color: rgba(255, 255, 255, 0.95);
+    border-radius: 15px;
+    box-shadow: 0px 8px 30px rgba(0, 0, 0, 0.2);
+    width: 90%;
+    max-width: 900px;
+    overflow: hidden;
+}
+
+/* Sección izquierda: Información */
+.login-info {
+    background-color: #f8f9fa;
+    border-right: 1px solid #e9ecef;
+}
+
+.logo {
+    max-height: 300px;
+}
+
+/* Inputs personalizados */
+.input-custom {
+    border-radius: 8px;
+    border: 1px solid #ced4da;
+    padding: 10px 15px;
+    transition: all 0.3s ease;
+}
+
+.input-custom:focus {
+    border-color: #007bff;
+    box-shadow: 0px 0px 5px rgba(0, 123, 255, 0.5);
+}
+
+/* Botón de acceso */
+.btn-primary {
+    background-color: #007bff;
+    border: none;
+    transition: all 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+    transform: scale(1.02);
+    box-shadow: 0px 5px 15px rgba(0, 123, 255, 0.4);
+}
+
+/* Links */
+a {
+    color: #17a2b8;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #138496;
+}
+
+/* Texto descriptivo */
+.text-muted {
+    color: #6c757d !important;
+}
