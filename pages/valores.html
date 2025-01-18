@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Misión-Visión</title>
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- CSS Personalizado -->
+    <link rel="stylesheet" href="../css/valores.css" />
+  </head>
+  <body>
+    <!-- Barra de navegación -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-danger shadow-sm py-3">
+      <div class="container">
+        <a class="navbar-brand fw-bold text-uppercase" href="#"
+          >Portal Educativo</a
+        >
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="./login.html">Registrarse</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="carismaDropdown"
+                role="button"
+                aria-expanded="false"
+              >
+                Identidad
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="carismaDropdown">
+                <li>
+                  <a class="dropdown-item" href="./mision-vision.html"
+                    >Misión-Visión</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="./valores.html">Valores</a>
+                </li>
+                <li><a class="dropdown-item" href="./himno.html">Himno</a></li>
+                <li><a class="dropdown-item" href="./historia.html">Historia</a></li>
+                <li><a class="dropdown-item" href="./principios.html">Principios</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="ofertaDropdown"
+                role="button"
+                aria-expanded="false"
+              >
+                Oferta Académica
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="ofertaDropdown">
+                <li><a class="dropdown-item" href="#">Admisiones</a></li>
+                <li><a class="dropdown-item" href="#">Educación Inicial</a></li>
+                <li>
+                  <a class="dropdown-item" href="#">Educación General Básica</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#"
+                    >Bachillerato General Unificado</a
+                  >
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="comunidadDropdown"
+                role="button"
+                aria-expanded="false"
+              >
+                Comunidad Educativa
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="comunidadDropdown">
+                <li><a class="dropdown-item" href="#">Autoridades</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Seccion en la que va todo el contenido de mision y vision -->
+    <section class="section-valores py-5 bg-light">
+      <div class="container">
+        <h2 class="text-center mb-5 text-danger">Valores Lasallistas</h2>
+        <h5 style="text-align: center;"> 
+          La Unidad Educativa 14 de Febrero tiene dentro de su ética la vivencia
+          de los siguientes valores que identifican a cada integrante de la
+          comunidad educativa
+        </h5>
+        <div class="accordion" id="valoresAccordion">
+          <div class="accordion-item">
+            <h3 class="accordion-header" id="headingFe">
+              <button
+                class="accordion-button"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseFe"
+                aria-expanded="true"
+                aria-controls="collapseFe"
+              >
+                Responsabilidad
+              </button>
+            </h3>
+            <div
+              id="collapseFe"
+              class="accordion-collapse collapse show"
+              aria-labelledby="headingFe"
+              data-bs-parent="#valoresAccordion"
+            >
+              <div class="accordion-body">
+                La responsabilidad se refiere al compromiso que estudiantes,
+                docentes y familias asumen para cumplir con sus deberes y roles.
+                Implica la capacidad de responder por las propias acciones,
+                cumplir con tareas académicas, respetar normas y contribuir
+                activamente al desarrollo de un ambiente de aprendizaje
+                positivo.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h3 class="accordion-header" id="headingFraternidad">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseFraternidad"
+                aria-expanded="false"
+                aria-controls="collapseFraternidad"
+              >
+                Amor
+              </button>
+            </h3>
+            <div
+              id="collapseFraternidad"
+              class="accordion-collapse collapse"
+              aria-labelledby="headingFraternidad"
+              data-bs-parent="#valoresAccordion"
+            >
+              <div class="accordion-body">
+                El amor se manifiesta como el cuidado, respeto y empatía hacia
+                los demás. Es el motor que impulsa relaciones humanas saludables
+                entre estudiantes, docentes y la comunidad educativa,
+                promoviendo un entorno de aprendizaje lleno de confianza y
+                motivación.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h3 class="accordion-header" id="headingServicio">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseServicio"
+                aria-expanded="false"
+                aria-controls="collapseServicio"
+              >
+                Honestidad
+              </button>
+            </h3>
+            <div
+              id="collapseServicio"
+              class="accordion-collapse collapse"
+              aria-labelledby="headingServicio"
+              data-bs-parent="#valoresAccordion"
+            >
+              <div class="accordion-body">
+                La honestidad se traduce en actuar con transparencia, decir la
+                verdad y respetar los principios éticos. Esto incluye reconocer
+                errores, evitar el plagio, ser íntegro en el cumplimiento de las
+                tareas escolares y fomentar un clima de confianza mutua
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h3 class="accordion-header" id="headingJusticia">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseJusticia"
+                aria-expanded="false"
+                aria-controls="collapseJusticia"
+              >
+                Solidaridad
+              </button>
+            </h3>
+            <div
+              id="collapseJusticia"
+              class="accordion-collapse collapse"
+              aria-labelledby="headingJusticia"
+              data-bs-parent="#valoresAccordion"
+            >
+              <div class="accordion-body">
+                La solidaridad en educación implica trabajar juntos y apoyarse
+                mutuamente para alcanzar metas comunes. Se refleja en la
+                disposición de estudiantes y docentes para ayudar a quienes
+                enfrentan dificultades, promoviendo valores como la cooperación,
+                la inclusión y el respeto por las diferencias.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="d-flex justify-content-center my-5">
+      <img
+        src="../assets/images/imagen_index.jpg"
+        alt="Logo La Salle"
+        class="img-fluid"
+        style="max-width: 300px"
+      />
+    </div>
+
+    <!-- Fin de la seccion en la que va mision y vision -->
+
+    <footer class="bg-dark text-white pt-4 pb-2">
+      <div class="container">
+        <div class="row text-center text-md-start">
+          <!-- Logo y Dirección -->
+          <div class="col-md-3 mb-3">
+            <img
+              src="../assets/images/ricardo-removebg-preview.png"
+              alt="14 de Febrero"
+              class="mb-3"
+              style="max-width: 150px"
+            />
+            <h5 class="text-uppercase">Dirección</h5>
+            <p>
+              <i class="bi bi-geo-alt-fill me-2"></i>Av. Abdón Calderón S18 –
+              104<br />
+              Conocoto - Ecuador
+            </p>
+            <p>
+              <i class="bi bi-telephone-fill me-2"></i>2342115 - 2341053 -
+              22344551
+            </p>
+            <p>
+              <i class="bi bi-envelope-fill me-2"></i
+              >informacion@lasalleconocoto.edu.ec
+            </p>
+            <a
+              href="http://www.lasalleconocoto.edu.ec"
+              class="text-white text-decoration-none"
+            >
+              <i class="bi bi-globe me-2"></i>www.lasalleconocoto.edu.ec
+            </a>
+          </div>
+
+          <!-- La Salle -->
+          <div class="col-md-3 mb-3">
+            <h5 class="text-uppercase">14 de Febrero</h5>
+            <ul class="list-unstyled">
+              <li>
+                <a href="#" class="text-white text-decoration-none"
+                  >Convenios</a
+                >
+              </li>
+              <li>
+                <a href="#" class="text-white text-decoration-none"
+                  >Buzón de Sugerencias</a
+                >
+              </li>
+              <li>
+                <a href="#" class="text-white text-decoration-none"
+                  >Admisiones</a
+                >
+              </li>
+            </ul>
+          </div>
+
+          <!-- Sistemas -->
+          <div class="col-md-3 mb-3">
+            <h5 class="text-uppercase">Sistemas</h5>
+            <ul class="list-unstyled">
+              <li>
+                <a href="#" class="text-white text-decoration-none"
+                  >Academium</a
+                >
+              </li>
+              <li>
+                <a href="#" class="text-white text-decoration-none"
+                  >PlaceToPay</a
+                >
+              </li>
+            </ul>
+          </div>
+
+          <!-- Redes Sociales -->
+          <div class="col-md-3 mb-3">
+            <h5 class="text-uppercase">Redes Sociales</h5>
+            <a href="#" class="text-white me-3"
+              ><i class="bi bi-whatsapp"></i
+            ></a>
+            <a href="#" class="text-white me-3"
+              ><i class="bi bi-facebook"></i
+            ></a>
+            <a href="#" class="text-white me-3"
+              ><i class="bi bi-instagram"></i
+            ></a>
+            <a href="#" class="text-white"><i class="bi bi-youtube"></i></a>
+          </div>
+        </div>
+
+        <div class="text-center mt-4">
+          <small>
+            La Salle Conocoto 2021 - Todos los derechos reservados. |
+            Desarrollado por PIN SOLUCIONES | 099 832 1000
+          </small>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- JS Personalizado -->
+    <script src="../js/index.js"></script>
+  </body>
+</html>

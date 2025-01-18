@@ -1,0 +1,83 @@
+/* Estilos personalizados para la sección de Misión y Visión */
+.section-mision-vision {
+    background-color: #f8f9fa;
+    padding: 60px 0;
+    }
+    
+    .section-mision-vision h2 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 30px;
+    }
+    
+    .section-mision-vision p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    }
+
+
+    /*DISEÑO DEL FOOTER*/
+footer {
+    border-top: 2px solid #ffc107;
+}
+
+footer h5 {
+    color: #ffc107;
+    font-size: 1.1rem;
+    margin-bottom: 15px;
+}
+
+footer p, footer a {
+    font-size: 0.9rem;
+}
+
+footer a:hover {
+    color: #ffc107;
+}
+
+footer .bi {
+    font-size: 1.5rem;
+}
+
+
+/* Estilo de los menús desplegables */
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    background-color: #446280; /* Gris claro */
+    border: 1px solid #ccc; /* Borde gris suave */
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    border-radius: 5px; /* Bordes redondeados */
+    padding: 10px 0;
+}
+
+/* Estilo de los elementos dentro del menú */
+.dropdown-item {
+    color: #ffffff; /* Color de texto gris oscuro */
+    padding: 8px 20px;
+    text-align: left;
+}
+
+/* Cambio de color cuando se pasa el mouse sobre un item */
+.dropdown-item:hover {
+    background-color: #dc3545; /* Rojo (similar al color principal de la navbar) */
+    color: white; /* Texto blanco al pasar el mouse */
+}
+
+/* Agregar transiciones suaves */
+.dropdown-item {
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Para dar un mejor aspecto a la navbar */
+.navbar {
+    background-color: #dc3545; /* Rojo */
+}
+
+.navbar-brand {
+    color: white !important;
+}
+
+.navbar-toggler-icon {
+    background-color: white;
+}

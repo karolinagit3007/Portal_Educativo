@@ -1,0 +1,120 @@
+/* Estilo general */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+}
+
+/* Carrusel */
+.carousel {
+    max-height: 590px;
+}
+
+.carousel-item img {
+    max-height: 590px;
+    object-fit: cover;
+} 
+
+/* Estadísticas */
+.stat-icon {
+    width: 80px;
+    height: 80px;
+    font-size: 2rem;
+}
+
+.stat-number {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #333;
+}
+
+/* Imagen completa */
+.wide-image img {
+    width: 100%;
+    height: auto;
+}
+
+/* Diseño para los íconos en la sección de estadísticas */
+.stat-icon {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+
+
+/*DISEÑO DEL FOOTER*/
+footer {
+    border-top: 2px solid #ffc107;
+}
+
+footer h5 {
+    color: #ffc107;
+    font-size: 1.1rem;
+    margin-bottom: 15px;
+}
+
+footer p, footer a {
+    font-size: 0.9rem;
+}
+
+footer a:hover {
+    color: #ffc107;
+}
+
+footer .bi {
+    font-size: 1.5rem;
+}
+
+
+/*ESTILOS DE BARRA DE NAVEGACIÓN*/
+.nav-item.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+/* Estilo de los menús desplegables */
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    background-color: #446280; /* Gris claro */
+    border: 1px solid #ccc; /* Borde gris suave */
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    border-radius: 5px; /* Bordes redondeados */
+    padding: 10px 0;
+}
+
+/* Estilo de los elementos dentro del menú */
+.dropdown-item {
+    color: #ffffff; /* Color de texto gris oscuro */
+    padding: 8px 20px;
+    text-align: left;
+}
+
+/* Cambio de color cuando se pasa el mouse sobre un item */
+.dropdown-item:hover {
+    background-color: #dc3545; /* Rojo (similar al color principal de la navbar) */
+    color: white; /* Texto blanco al pasar el mouse */
+}
+
+/* Agregar transiciones suaves */
+.dropdown-item {
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Para dar un mejor aspecto a la navbar */
+.navbar {
+    background-color: #dc3545; /* Rojo */
+}
+
+.navbar-brand {
+    color: white !important;
+}
+
+.navbar-toggler-icon {
+    background-color: white;
+}
