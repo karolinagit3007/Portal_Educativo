@@ -17,7 +17,7 @@ document.getElementById("loginForm").addEventListener("submit", function (e) {
 
     if (user) {
         // Redirigir al usuario a la página "informacion.html"
-        window.location.href = "pages/informacion.html";
+        window.location.href = "../pages/informacion.html";
     } else {
         // Mostrar mensaje de error
         errorMessage.style.display = "block";
