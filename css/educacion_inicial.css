@@ -112,6 +112,7 @@ footer .bi {
 
 .hymn-lyrics {
     line-height: 1.6;
+    font-size: 20px;
 }
 
 .hymn-lyrics strong {
@@ -163,4 +164,7 @@ footer .bi {
 
 .navbar-toggler-icon {
     background-color: white;
+}
+.img-fluid{
+    border-radius: 40px;
 }

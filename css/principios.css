@@ -3,6 +3,7 @@
     color: #ffffff;
     font-weight: bold;
     padding: 1.5rem;
+    font-size: 20px;
 }
 
 .accordion-button:not(.collapsed) {
@@ -12,6 +13,8 @@
 
 .accordion-body {
     padding: 1.5rem;
+    font-size: 20px;
+
 }
 
 .accordion-item {

@@ -72,6 +72,7 @@ footer .bi {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 2rem;
+    max-width: 1000px
 }
 
 .hymn-verse {
@@ -89,6 +90,8 @@ footer .bi {
 
 .hymn-lyrics {
     line-height: 1.6;
+    font-size: 20px;
+
 }
 
 
@@ -164,3 +167,5 @@ footer .bi {
 .navbar-toggler-icon {
     background-color: white;
 }
+
+
